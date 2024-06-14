@@ -1,0 +1,129 @@
+.login-signup-Section{
+    color: white;
+    padding-inline: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 4rem;
+}
+
+.login-signup-Section .content-section{
+    order: 2;
+    margin-top: 1.5rem;
+}
+
+/* Image Contianer */
+
+.login-signup-Section .image-container{
+   position: relative;
+   margin-top: 2rem;
+   height: 300px;
+}
+
+.image-container .frame,.image{
+    position: absolute;
+    border-radius: 10px;
+}
+
+.image-container .frame{
+   left: 10px;
+   top: 12px;
+}
+
+/* Content Contianer */
+
+.content-section .heading{
+   font-size: 1.8rem;
+   margin-block-end: 0.8rem;
+}
+
+.content-section .desc-1{
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+.content-section .desc-2{
+    opacity: 0.8; 
+    color:rgb(57, 127, 184);
+    font-size: 17px;
+    margin-block-end: 14px;
+  }
+  
+
+  /* line Section */
+
+  .section-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-line .content{
+     height: 0.3px;
+     flex-basis: 47%;
+     background-color: #868383 ;
+  }
+
+  .section-line .text{
+     text-transform: uppercase;
+     color: #868383;
+     margin-block: 20px;
+ }
+
+ /* btn container */
+
+ .btn-container{
+    border: 1px solid  #868383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-block-end: 10px;
+    padding: 0.4rem;
+    border-radius: 4px;
+ }
+
+ .btn-container .logo{
+    font-size: 22px;
+ }
+
+ .btn-container .btn{
+    font-size: 17px;
+    opacity: 0.7;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+ }
+
+
+ @media (min-width:710px) {
+   .login-signup-Section .content-section{
+      order:0;
+      margin-top: 1.5rem;
+      flex-basis: 50%;
+  }
+
+  .login-signup-Section{
+   margin-block-start: 5rem;
+   gap: 3rem;
+   flex-direction: row;
+  }
+ 
+}
+
+@media (min-width:1000px) {
+  
+  .login-signup-Section{
+    max-width: 900px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+  }
+ 
+  .login-signup-Section .image-container{
+   margin-left: 2.3rem;
+   }
+
+}

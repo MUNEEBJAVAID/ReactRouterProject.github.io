@@ -1,0 +1,93 @@
+.button-wrapper{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+    max-width: max-content;
+    padding:4px;
+    border-radius: 30px;
+    background-color: #333333;
+    margin-block-start: 1.4rem;
+    margin-block-end: 1rem;
+}
+
+.button-wrapper .btn{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-block:10px;
+    padding-inline:18px;
+    border-radius: 20px;
+    color: white;
+    opacity: 0.7;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.button-wrapper .btn.active{
+    opacity: 1;
+    
+    background-color: #1d1c1c;
+}
+
+.form-label{
+    display:block;
+    margin-block-end: 10px;
+  }
+
+  .form-input{
+    width: 100%;
+    margin-top: 4px;
+    padding-block: 12px;
+    padding-inline: 7px;
+    background-color: #333333;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    opacity: 0.9;
+  } 
+
+  .form-input::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.required{
+    color: red;
+    opacity: 0.7;
+}
+
+.password-wrapper{
+    position: relative;
+}
+
+.password-toggle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-38%);
+    right: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+.form-actions{
+    background-color: yellow;
+    display: grid;
+    place-items: center;
+    padding-block: 7px;
+    border-radius: 6px;
+    margin-block-start:2.5rem;
+}
+
+.form-actions .submit-button{
+    appearance: none;
+    border: none;
+    background-color:transparent;
+    font-size: 1rem;
+    cursor: pointer;
+}

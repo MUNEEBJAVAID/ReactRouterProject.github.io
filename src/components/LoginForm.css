@@ -1,0 +1,68 @@
+.login-form .required{
+    color: red;
+    opacity: 0.7;
+}
+
+.login-form  .form-label{
+  display:block;
+  margin-block-end: 10px;
+}
+
+.login-form  .form-input{
+  width: 100%;
+  margin-top: 4px;
+  padding-block: 12px;
+  padding-inline: 7px;
+  background-color: #333333;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  opacity: 0.9;
+}
+
+.login-form  .form-input::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.password-wrapper{
+    position: relative;
+}
+
+.password-toggle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-38%);
+    right: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.forgot-password{
+    text-align: end;
+    font-size: 14px;
+    opacity: 0.8; 
+    color:rgb(57, 127, 184);
+}
+
+.form-actions{
+    background-color: yellow;
+    display: grid;
+    place-items: center;
+    padding-block: 7px;
+    border-radius: 6px;
+    margin-block-start:2.5rem;
+}
+
+.form-actions .submit-button{
+    border: none;
+    background-color:transparent;
+    font-size: 1rem;
+   
+}
+
+
+
+
